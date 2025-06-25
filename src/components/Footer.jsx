@@ -42,11 +42,11 @@ const Footer = () => {
               <p>Mini Square Commercial, Bahria Town Phase 8</p>
               <p>Islamabad, Pakistan</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>Phone: +923408906107</span>
+                <strong>Phone:</strong> <span>Phone: +923409797323</span>
               </p>
               <p>
                 <strong>Email:</strong>
-                <span>Email: mailtoifuture@gmail.com</span>
+                <span>Email: mailtosajjadamin1924@gmail.com</span>
               </p>
             </div>
           </div>
