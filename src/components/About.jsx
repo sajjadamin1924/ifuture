@@ -1,4 +1,9 @@
 import React from "react";
+import about from "../assets/img/about.jpg"; // Adjust the path as necessary
+import values1 from "../assets/img/values1.png"; // Adjust the path as necessary
+import values2 from "../assets/img/values2.png"; // Adjust the path as necessary
+import values3 from "../assets/img/values3.png"; // Adjust the path as necessary
+
 
 const About = () => {
   return (
@@ -55,7 +60,7 @@ const About = () => {
               data-aos-delay="200"
             >
               <img
-                src="src/assets/img/about.jpg"
+                src={about}
                 className="img-fluid"
                 alt="About IFuture"
               />
@@ -77,7 +82,7 @@ const About = () => {
             <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div className="card">
                 <img
-                  src="src/assets/img/values-1.png"
+                  src={values1}
                   className="img-fluid"
                   alt="About IFuture"
                 />
@@ -95,7 +100,7 @@ const About = () => {
             <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
               <div className="card">
                 <img
-                  src="src/assets/img/values-2.png"
+                  src={values2}
                   className="img-fluid"
                   alt="About IFuture"
                 />
@@ -113,7 +118,7 @@ const About = () => {
             <div className="col-lg-4" data-aos="fade-up" data-aos-delay="300">
               <div className="card">
                 <img
-                  src="src/assets/img/values-3.png"
+                  src={values3}
                   className="img-fluid"
                   alt="About IFuture"
                 />

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import heroImg from "../assets/img/hero-img.png"; // Adjust the path as necessary
 
 const Hero = () => {
   useEffect(() => {
@@ -40,7 +41,7 @@ const Hero = () => {
               data-aos="zoom-out"
             >
               <img
-                src="src/assets/img/hero-img.png"
+                src={heroImg}
                 className="img-fluid animated"
                 alt=""
               />

@@ -4,6 +4,15 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Autoplay, Pagination } from "swiper/modules";
+import client1 from "../assets/img/clients/client1.png";
+import client2 from "../assets/img/clients/client2.png";
+import client3 from "../assets/img/clients/client3.png";
+import client4 from "../assets/img/clients/client4.png";
+import client5 from "../assets/img/clients/client5.png";
+import client6 from "../assets/img/clients/client6.png";
+import client7 from "../assets/img/clients/client7.png";
+import client8 from "../assets/img/clients/client8.png";
+
 
 const Clients = () => {
   return (
@@ -41,56 +50,56 @@ const Clients = () => {
         >
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-1.png"
+              src={client1}
               className="img-fluid client-image"
               alt="Client 1"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-2.png"
+              src={client2}
               className="img-fluid client-image"
               alt="Client 2"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-3.png"
+              src={client3}
               className="img-fluid client-image"
               alt="Client 3"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-4.png"
+              src={client4}
               className="img-fluid client-image"
               alt="Client 4"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-5.png"
+              src={client5}
               className="img-fluid client-image"
               alt="Client 5"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-6.png"
+              src={client6}
               className="img-fluid client-image"
               alt="Client 6"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-7.png"
+              src={client7}
               className="img-fluid client-image"
               alt="Client 7"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="src/assets/img/clients/client-8.png"
+              src={client8}
               className="img-fluid client-image"
               alt="Client 8"
             />

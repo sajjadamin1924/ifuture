@@ -4,10 +4,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Autoplay, Pagination } from "swiper/modules";
+import testimonials1 from "../assets/img/testimonials/testimonials1.jpg";
+import testimonials2 from "../assets/img/testimonials/testimonials2.jpg";
+import testimonials3 from "../assets/img/testimonials/testimonials3.jpg";
+import testimonials4 from "../assets/img/testimonials/testimonials4.jpg";
+import testimonials5 from "../assets/img/testimonials/testimonials5.jpg";
 
 const Testimonials = () => {
   return (
-    
       <section id="testimonials" className="testimonials section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
@@ -57,7 +61,7 @@ const Testimonials = () => {
                 </p>
                 <div className="profile mt-auto">
                   <img
-                    src="src/assets/img/testimonials/testimonials-1.jpg"
+                    src={testimonials1}
                     className="testimonial-img"
                     alt=""
                   />
@@ -84,7 +88,7 @@ const Testimonials = () => {
                 </p>
                 <div className="profile mt-auto">
                   <img
-                    src="src/assets/img/testimonials/testimonials-2.jpg"
+                    src={testimonials2}
                     className="testimonial-img"
                     alt=""
                   />
@@ -110,7 +114,7 @@ const Testimonials = () => {
                 </p>
                 <div className="profile mt-auto">
                   <img
-                    src="src/assets/img/testimonials/testimonials-3.jpg"
+                    src={testimonials3}
                     className="testimonial-img"
                     alt=""
                   />
@@ -137,7 +141,7 @@ const Testimonials = () => {
                 </p>
                 <div className="profile mt-auto">
                   <img
-                    src="src/assets/img/testimonials/testimonials-4.jpg"
+                   src={testimonials4}
                     className="testimonial-img"
                     alt=""
                   />
@@ -164,7 +168,7 @@ const Testimonials = () => {
                 </p>
                 <div className="profile mt-auto">
                   <img
-                    src="src/assets/img/testimonials/testimonials-5.jpg"
+                    src={testimonials5}
                     className="testimonial-img"
                     alt=""
                   />
@@ -176,8 +180,10 @@ const Testimonials = () => {
           </Swiper>
         </div>
       </section>
-   
   );
-};
+  
+   
+  
+}
 
 export default Testimonials;
